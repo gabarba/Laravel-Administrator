@@ -25,7 +25,7 @@ class AdministratorServiceProvider extends ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('frozennode/administrator');
+		//$this->package('frozennode/administrator');
 
 		//set the locale
 		$this->setLocale();
