@@ -123,13 +123,7 @@ class Validator extends \Illuminate\Validation\Validator {
 		return false;
 	}
 
-	/**
-	 * Validates that an item is a string
-	 */
-	public function validateString($attribute, $value, $parameters)
-	{
-		return is_string($value);
-	}
+	
 
 	/**
 	 * Validates that an item is a directory
